@@ -1,0 +1,19 @@
+/* Import Tailwind Libraries: Allows project to use tailwind components */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Font Family Library: Allows project to use a specific font- Montserrat */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Source+Sans+Pro;
+  background: white;
+}
+
+.custom-bg {
+  background-image: url("../public/images/bg-mashead.jpg");
+}
